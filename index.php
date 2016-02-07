@@ -30,6 +30,11 @@
       background-color: #D56A6A;
       color: #ffffff;
     }
+    table.table-style-three a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
     table.table-style-three tr:hover td {
       cursor: pointer;
     }
@@ -53,16 +58,16 @@
 	<thead>
 	<!-- Display CRUD options in TH format -->
     <tr>
-      <th> Create a new record (C)</th>
+      <th><a href="createNewRecord.php">Create a new record (C)</a></th>
     </tr>
     <tr>
-      <th> Read All Record information (R) </th>
+      <th><a href="displayAllRecords.php">Read All Record information (R)</a></th>
     </tr>
     <tr>
-      <th> Update A Record (U) </th>
+      <th><a href="displayAllRecords.php">Update A Record (U)</a></th>
     </tr>
     <tr>
-      <th> Delete A Record (D)</th>
+      <th><a href="displayAllRecords.php">Delete A Record (D)</a></th>
     </tr>
 
 	</thead>
