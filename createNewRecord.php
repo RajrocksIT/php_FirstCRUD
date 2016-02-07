@@ -13,7 +13,7 @@
 <head>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
   <title>
-FIRST CRUD
+FIRST CRUD - Create New Record
 </title>
   <!-- Style -- Can also be included as a file usually style.css -->
   <style type="text/css">

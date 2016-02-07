@@ -33,7 +33,7 @@
       color: #ffffff;
     }
     table.table-style-three a {
-      color: #ffffff;
+      color: blue;
       text-decoration: none;
     }
 
@@ -78,7 +78,7 @@
       <?php
       foreach($allrecords as $displayRecords) { ?>
       <tr>
-        <td><?php print $displayRecords['userid']; ?></td>
+        <td><a href="updateThisUser.php?userid=<?php print $displayRecords['userid']; ?>"><?php print $displayRecords['userid']; ?></a></td>
         <td><?php print $displayRecords['firstname']; ?></td>
         <td><?php print $displayRecords['lastname']; ?></td>
         <td><?php print $displayRecords['city']; ?></td>
