@@ -1,22 +1,29 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: PraviinM
- * Date: 2/7/16
- * Time: 3:29 PM
+ * PraviinM
  */
 
-print_r($_POST);
 
-require_once("config.php");
+//Making the POST look pretty.
+    echo "<pre>";
+    print_r($_POST);
+    echo "</pre>";
+
+    require_once("config.php");
 
 // Assigning $_POST values to individual variables for reuse.
-$fname = $_POST['firstname'];
-$lname = $_POST['lastname'];
-$city = $_POST['city'];
-$zip = $_POST['zip'];
-$dob = $_POST['dateofbirth'];
-$email = $_POST['emailaddress'];
+
+//This is where we can write functions to check if the firstname, lastname are names and not numbers.
+//Somethinglike --- $firstname = FunctionToCheck($_POST['firstname'];
+//or        $cleanFirstname  = functionToCheck($firstname); -- move the post to a variable first and then check for errors.
+
+    $fname = $_POST['firstname'];
+    $lname = $_POST['lastname'];
+    $city = $_POST['city'];
+    $zip = $_POST['zip'];
+    $dob = $_POST['dateofbirth'];
+    $email = $_POST['emailaddress'];
+
 
 
 //Creating a variable to hold the "@return boolean value returned by function createNewUser - is boolean 1 with
