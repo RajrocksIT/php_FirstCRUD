@@ -62,6 +62,9 @@
         <th><a href="createNewRecord.php">Create a new record (C)</a></th>
       </tr>
       <tr>
+          <th><a href="insertpersonalinformation.php">Insert Personal Information </a></th>
+      </tr>
+      <tr>
         <th><a href="displayAllRecords.php">Read All Record information (R)</a></th>
       </tr>
       <tr>
@@ -70,6 +73,8 @@
       <tr>
         <th><a href="displayAllRecords.php">Delete A Record (D)</a></th>
       </tr>
+
+
 
       </thead>
   </table>
